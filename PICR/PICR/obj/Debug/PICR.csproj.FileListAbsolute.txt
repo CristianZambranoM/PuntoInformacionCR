@@ -1,0 +1,12 @@
+C:\DAM\DI\PICR\PICR\bin\Debug\PICR.exe.config
+C:\DAM\DI\PICR\PICR\bin\Debug\PICR.exe
+C:\DAM\DI\PICR\PICR\bin\Debug\PICR.pdb
+C:\DAM\DI\PICR\PICR\bin\Debug\FontAwesome.Sharp.dll
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.csproj.AssemblyReference.cache
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.Form1.resources
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.Properties.Resources.resources
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.csproj.GenerateResource.cache
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.csproj.CoreCompileInputs.cache
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.csproj.Up2Date
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.exe
+C:\DAM\DI\PICR\PICR\obj\Debug\PICR.pdb
