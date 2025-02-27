@@ -59,16 +59,48 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.panelPlanos = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.botonPlantaS = new System.Windows.Forms.Button();
+            this.botonPlantaP = new System.Windows.Forms.Button();
+            this.botonPlantaB = new System.Windows.Forms.Button();
+            this.label38 = new System.Windows.Forms.Label();
             this.panelMenu2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonPlanos = new System.Windows.Forms.Button();
             this.botonProfesorado = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panelEntorno = new System.Windows.Forms.Panel();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
@@ -81,16 +113,23 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
+            this.imagenesPlanos = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelBienvenida.SuspendLayout();
             this.panelPrincipal.SuspendLayout();
             this.panelMain.SuspendLayout();
             this.panelInfo.SuspendLayout();
             this.panelProfesores.SuspendLayout();
+            this.panelPlanos.SuspendLayout();
             this.panelMenu2.SuspendLayout();
             this.panelMenu.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panelEntorno.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -99,6 +138,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenesPlanos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -184,9 +224,10 @@
             // 
             // panelMain
             // 
-            this.panelMain.Controls.Add(this.panel1);
+            this.panelMain.Controls.Add(this.panelEntorno);
             this.panelMain.Controls.Add(this.panelInfo);
             this.panelMain.Controls.Add(this.panelProfesores);
+            this.panelMain.Controls.Add(this.panelPlanos);
             this.panelMain.Location = new System.Drawing.Point(288, 96);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(960, 672);
@@ -487,8 +528,295 @@
             this.label21.TabIndex = 1;
             this.label21.Text = "Equipo directivo y profesorado";
             // 
+            // panelPlanos
+            // 
+            this.panelPlanos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.panelPlanos.Controls.Add(this.iconButton5);
+            this.panelPlanos.Controls.Add(this.label43);
+            this.panelPlanos.Controls.Add(this.label42);
+            this.panelPlanos.Controls.Add(this.label41);
+            this.panelPlanos.Controls.Add(this.label40);
+            this.panelPlanos.Controls.Add(this.label39);
+            this.panelPlanos.Controls.Add(this.label37);
+            this.panelPlanos.Controls.Add(this.label36);
+            this.panelPlanos.Controls.Add(this.label35);
+            this.panelPlanos.Controls.Add(this.label34);
+            this.panelPlanos.Controls.Add(this.label33);
+            this.panelPlanos.Controls.Add(this.label32);
+            this.panelPlanos.Controls.Add(this.label31);
+            this.panelPlanos.Controls.Add(this.label30);
+            this.panelPlanos.Controls.Add(this.label29);
+            this.panelPlanos.Controls.Add(this.label28);
+            this.panelPlanos.Controls.Add(this.label27);
+            this.panelPlanos.Controls.Add(this.label26);
+            this.panelPlanos.Controls.Add(this.imagenesPlanos);
+            this.panelPlanos.Controls.Add(this.botonPlantaS);
+            this.panelPlanos.Controls.Add(this.botonPlantaP);
+            this.panelPlanos.Controls.Add(this.botonPlantaB);
+            this.panelPlanos.Controls.Add(this.label38);
+            this.panelPlanos.Location = new System.Drawing.Point(0, 0);
+            this.panelPlanos.Name = "panelPlanos";
+            this.panelPlanos.Size = new System.Drawing.Size(960, 672);
+            this.panelPlanos.TabIndex = 17;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label43.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label43.Location = new System.Drawing.Point(704, 448);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(95, 21);
+            this.label43.TabIndex = 22;
+            this.label43.Text = "Alguna clase";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label42.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label42.Location = new System.Drawing.Point(512, 440);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(95, 21);
+            this.label42.TabIndex = 21;
+            this.label42.Text = "Alguna clase";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label41.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label41.Location = new System.Drawing.Point(696, 320);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(95, 21);
+            this.label41.TabIndex = 20;
+            this.label41.Text = "Alguna clase";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label40.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label40.Location = new System.Drawing.Point(528, 312);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(95, 21);
+            this.label40.TabIndex = 19;
+            this.label40.Text = "Alguna clase";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label39.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label39.Location = new System.Drawing.Point(704, 448);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(95, 21);
+            this.label39.TabIndex = 18;
+            this.label39.Text = "Alguna clase";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label37.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label37.Location = new System.Drawing.Point(696, 320);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(95, 21);
+            this.label37.TabIndex = 17;
+            this.label37.Text = "Alguna clase";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label36.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label36.Location = new System.Drawing.Point(528, 312);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(95, 21);
+            this.label36.TabIndex = 16;
+            this.label36.Text = "Alguna clase";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label35.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label35.Location = new System.Drawing.Point(344, 456);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(43, 21);
+            this.label35.TabIndex = 15;
+            this.label35.Text = "bach";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label34.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label34.Location = new System.Drawing.Point(344, 296);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(95, 21);
+            this.label34.TabIndex = 14;
+            this.label34.Text = "Alguna clase";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label33.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label33.Location = new System.Drawing.Point(160, 320);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(135, 21);
+            this.label33.TabIndex = 13;
+            this.label33.Text = "Sala de profesores";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label32.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label32.Location = new System.Drawing.Point(192, 432);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(48, 21);
+            this.label32.TabIndex = 12;
+            this.label32.Text = "BACH";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label31.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label31.Location = new System.Drawing.Point(368, 408);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(43, 21);
+            this.label31.TabIndex = 11;
+            this.label31.Text = "Bach";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label30.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label30.Location = new System.Drawing.Point(648, 408);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(80, 21);
+            this.label30.TabIndex = 10;
+            this.label30.Text = "Secretaría";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label29.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label29.Location = new System.Drawing.Point(656, 464);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(73, 21);
+            this.label29.TabIndex = 9;
+            this.label29.Text = "Direccion";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label28.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label28.Location = new System.Drawing.Point(712, 296);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(56, 21);
+            this.label28.TabIndex = 8;
+            this.label28.Text = "1º DAM";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label27.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label27.Location = new System.Drawing.Point(544, 288);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(40, 21);
+            this.label27.TabIndex = 7;
+            this.label27.Text = "2º EI";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(218)))), ((int)(((byte)(67)))));
+            this.label26.Font = new System.Drawing.Font("Dosis", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(78)))), ((int)(((byte)(128)))));
+            this.label26.Location = new System.Drawing.Point(376, 288);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(59, 21);
+            this.label26.TabIndex = 6;
+            this.label26.Text = "2º DAM";
+            // 
+            // botonPlantaS
+            // 
+            this.botonPlantaS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(216)))), ((int)(((byte)(231)))));
+            this.botonPlantaS.Font = new System.Drawing.Font("Dosis", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonPlantaS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.botonPlantaS.Location = new System.Drawing.Point(704, 112);
+            this.botonPlantaS.Name = "botonPlantaS";
+            this.botonPlantaS.Size = new System.Drawing.Size(224, 64);
+            this.botonPlantaS.TabIndex = 4;
+            this.botonPlantaS.Text = "Segunda planta";
+            this.botonPlantaS.UseVisualStyleBackColor = false;
+            this.botonPlantaS.Click += new System.EventHandler(this.botonPlantaS_Click);
+            // 
+            // botonPlantaP
+            // 
+            this.botonPlantaP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(216)))), ((int)(((byte)(231)))));
+            this.botonPlantaP.Font = new System.Drawing.Font("Dosis", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonPlantaP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.botonPlantaP.Location = new System.Drawing.Point(368, 112);
+            this.botonPlantaP.Name = "botonPlantaP";
+            this.botonPlantaP.Size = new System.Drawing.Size(224, 64);
+            this.botonPlantaP.TabIndex = 3;
+            this.botonPlantaP.Text = "Primera planta";
+            this.botonPlantaP.UseVisualStyleBackColor = false;
+            this.botonPlantaP.Click += new System.EventHandler(this.botonPlantaP_Click);
+            // 
+            // botonPlantaB
+            // 
+            this.botonPlantaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(216)))), ((int)(((byte)(231)))));
+            this.botonPlantaB.Font = new System.Drawing.Font("Dosis", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonPlantaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.botonPlantaB.Location = new System.Drawing.Point(32, 112);
+            this.botonPlantaB.Name = "botonPlantaB";
+            this.botonPlantaB.Size = new System.Drawing.Size(224, 64);
+            this.botonPlantaB.TabIndex = 2;
+            this.botonPlantaB.Text = "Planta Baja";
+            this.botonPlantaB.UseVisualStyleBackColor = false;
+            this.botonPlantaB.Click += new System.EventHandler(this.botonPlantaB_Click);
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Dosis", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(44, 16);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(872, 76);
+            this.label38.TabIndex = 1;
+            this.label38.Text = "Planos del centro y diferentes aulas";
+            // 
             // panelMenu2
             // 
+            this.panelMenu2.BackColor = System.Drawing.Color.White;
             this.panelMenu2.Controls.Add(this.label3);
             this.panelMenu2.Location = new System.Drawing.Point(288, 0);
             this.panelMenu2.Name = "panelMenu2";
@@ -498,17 +826,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Dosis", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Dosis", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
-            this.label3.Location = new System.Drawing.Point(16, 24);
+            this.label3.Location = new System.Drawing.Point(16, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(246, 50);
+            this.label3.Size = new System.Drawing.Size(286, 59);
             this.label3.TabIndex = 0;
             this.label3.Text = "Ces Cristo Rey";
             // 
             // panelMenu
             // 
+            this.panelMenu.BackColor = System.Drawing.Color.White;
+            this.panelMenu.Controls.Add(this.button2);
             this.panelMenu.Controls.Add(this.button1);
+            this.panelMenu.Controls.Add(this.buttonPlanos);
             this.panelMenu.Controls.Add(this.botonProfesorado);
             this.panelMenu.Controls.Add(this.pictureBox2);
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -516,17 +847,18 @@
             this.panelMenu.Size = new System.Drawing.Size(288, 768);
             this.panelMenu.TabIndex = 0;
             // 
-            // button1
+            // buttonPlanos
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
-            this.button1.Font = new System.Drawing.Font("Ebrima", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(8, 320);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(272, 56);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Planos";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonPlanos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.buttonPlanos.Font = new System.Drawing.Font("Ebrima", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPlanos.ForeColor = System.Drawing.Color.White;
+            this.buttonPlanos.Location = new System.Drawing.Point(8, 320);
+            this.buttonPlanos.Name = "buttonPlanos";
+            this.buttonPlanos.Size = new System.Drawing.Size(272, 56);
+            this.buttonPlanos.TabIndex = 2;
+            this.buttonPlanos.Text = "Planos";
+            this.buttonPlanos.UseVisualStyleBackColor = false;
+            this.buttonPlanos.Click += new System.EventHandler(this.buttonPlanos_Click);
             // 
             // botonProfesorado
             // 
@@ -541,56 +873,188 @@
             this.botonProfesorado.UseVisualStyleBackColor = false;
             this.botonProfesorado.Click += new System.EventHandler(this.botonProfesorado_Click);
             // 
-            // panel1
+            // button1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.label38);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(960, 672);
-            this.panel1.TabIndex = 17;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.button1.Font = new System.Drawing.Font("Ebrima", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(8, 400);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(272, 56);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Entorno";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // label38
+            // panelEntorno
             // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("Dosis", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(44, 16);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(872, 76);
-            this.label38.TabIndex = 1;
-            this.label38.Text = "Planos del centro y diferentes aulas";
+            this.panelEntorno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.panelEntorno.Controls.Add(this.label53);
+            this.panelEntorno.Controls.Add(this.label51);
+            this.panelEntorno.Controls.Add(this.label50);
+            this.panelEntorno.Controls.Add(this.label49);
+            this.panelEntorno.Controls.Add(this.label48);
+            this.panelEntorno.Controls.Add(this.label47);
+            this.panelEntorno.Controls.Add(this.pictureBox13);
+            this.panelEntorno.Controls.Add(this.pictureBox12);
+            this.panelEntorno.Controls.Add(this.pictureBox11);
+            this.panelEntorno.Controls.Add(this.label46);
+            this.panelEntorno.Controls.Add(this.label45);
+            this.panelEntorno.Controls.Add(this.label44);
+            this.panelEntorno.Controls.Add(this.label52);
+            this.panelEntorno.Location = new System.Drawing.Point(0, 0);
+            this.panelEntorno.Name = "panelEntorno";
+            this.panelEntorno.Size = new System.Drawing.Size(960, 672);
+            this.panelEntorno.TabIndex = 16;
             // 
-            // button2
+            // label52
             // 
-            this.button2.Location = new System.Drawing.Point(52, 128);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(224, 64);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.Transparent;
+            this.label52.Font = new System.Drawing.Font("Dosis", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(246, 40);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(468, 76);
+            this.label52.TabIndex = 1;
+            this.label52.Text = "Lugares de Interés";
             // 
-            // button3
+            // label44
             // 
-            this.button3.Location = new System.Drawing.Point(364, 128);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(224, 64);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Dosis", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.White;
+            this.label44.Location = new System.Drawing.Point(32, 208);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(272, 38);
+            this.label44.TabIndex = 2;
+            this.label44.Text = "Mirador San Cristobal";
             // 
-            // button4
+            // label45
             // 
-            this.button4.Location = new System.Drawing.Point(684, 128);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(224, 64);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Font = new System.Drawing.Font("Dosis", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.White;
+            this.label45.Location = new System.Drawing.Point(360, 208);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(251, 38);
+            this.label45.TabIndex = 3;
+            this.label45.Text = "Mirador San Nicolas";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Font = new System.Drawing.Font("Dosis", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(679, 208);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(243, 38);
+            this.label46.TabIndex = 4;
+            this.label46.Text = "Mirador San Miguel";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Font = new System.Drawing.Font("Dosis", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.White;
+            this.label47.Location = new System.Drawing.Point(40, 512);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(246, 29);
+            this.label47.TabIndex = 8;
+            this.label47.Text = " Ctra. de Murcia, 47, Albaicín";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.label48.Font = new System.Drawing.Font("Dosis", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.White;
+            this.label48.Location = new System.Drawing.Point(352, 512);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(283, 29);
+            this.label48.TabIndex = 9;
+            this.label48.Text = " Plaza Mirador de San Nicolás, 2";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.label49.Font = new System.Drawing.Font("Dosis", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(680, 512);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(245, 29);
+            this.label49.TabIndex = 10;
+            this.label49.Text = " Cam. del Sacromonte, s/n,";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.Transparent;
+            this.label50.Font = new System.Drawing.Font("Dosis", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(72, 552);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(197, 29);
+            this.label50.TabIndex = 11;
+            this.label50.Text = "A 5 minutos andando";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.label51.Font = new System.Drawing.Font("Dosis", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.White;
+            this.label51.Location = new System.Drawing.Point(392, 552);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(196, 29);
+            this.label51.TabIndex = 12;
+            this.label51.Text = "A 7 minutos andando";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.Font = new System.Drawing.Font("Dosis", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Location = new System.Drawing.Point(704, 552);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(202, 29);
+            this.label53.TabIndex = 13;
+            this.label53.Text = "A 12 minutos andando";
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::PICR.Properties.Resources.sanMiguelAlto;
+            this.pictureBox13.Location = new System.Drawing.Point(672, 264);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(256, 240);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 7;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::PICR.Properties.Resources.sanNicolas;
+            this.pictureBox12.Location = new System.Drawing.Point(360, 264);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(256, 240);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 6;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::PICR.Properties.Resources.sanCristobal;
+            this.pictureBox11.Location = new System.Drawing.Point(40, 264);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(256, 240);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 5;
+            this.pictureBox11.TabStop = false;
             // 
             // iconButton4
             // 
@@ -732,6 +1196,31 @@
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
             // 
+            // iconButton5
+            // 
+            this.iconButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.iconButton5.FlatAppearance.BorderSize = 0;
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.Faucet;
+            this.iconButton5.IconColor = System.Drawing.Color.White;
+            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton5.IconSize = 35;
+            this.iconButton5.Location = new System.Drawing.Point(104, 280);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Size = new System.Drawing.Size(40, 39);
+            this.iconButton5.TabIndex = 23;
+            this.iconButton5.UseVisualStyleBackColor = false;
+            // 
+            // imagenesPlanos
+            // 
+            this.imagenesPlanos.Image = global::PICR.Properties.Resources.primeraP;
+            this.imagenesPlanos.Location = new System.Drawing.Point(32, 200);
+            this.imagenesPlanos.Name = "imagenesPlanos";
+            this.imagenesPlanos.Size = new System.Drawing.Size(896, 448);
+            this.imagenesPlanos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imagenesPlanos.TabIndex = 5;
+            this.imagenesPlanos.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -755,6 +1244,18 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(90)))), ((int)(((byte)(137)))));
+            this.button2.Font = new System.Drawing.Font("Ebrima", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(8, 480);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(272, 56);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Normativa";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -772,11 +1273,16 @@
             this.panelInfo.PerformLayout();
             this.panelProfesores.ResumeLayout(false);
             this.panelProfesores.PerformLayout();
+            this.panelPlanos.ResumeLayout(false);
+            this.panelPlanos.PerformLayout();
             this.panelMenu2.ResumeLayout(false);
             this.panelMenu2.PerformLayout();
             this.panelMenu.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelEntorno.ResumeLayout(false);
+            this.panelEntorno.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -785,6 +1291,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenesPlanos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -806,7 +1313,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button botonProfesorado;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonPlanos;
         private System.Windows.Forms.Panel panelInfo;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -843,10 +1350,45 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelPlanos;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button botonPlantaS;
+        private System.Windows.Forms.Button botonPlantaP;
+        private System.Windows.Forms.Button botonPlantaB;
+        private System.Windows.Forms.PictureBox imagenesPlanos;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label40;
+        private FontAwesome.Sharp.IconButton iconButton5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelEntorno;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Button button2;
     }
 }

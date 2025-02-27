@@ -127,5 +127,23 @@
   <ItemGroup>
     <None Include="Resources\primeraP.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primeraP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SegundaP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terceraP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanCristobal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanNicolas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanMiguelAlto.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
