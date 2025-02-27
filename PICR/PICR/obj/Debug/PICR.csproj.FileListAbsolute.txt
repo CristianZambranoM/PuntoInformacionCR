@@ -22,3 +22,12 @@ C:\DAM\DI\PuntoInformacionCR\PICR\PICR\obj\Debug\PICR.csproj.CoreCompileInputs.c
 C:\DAM\DI\PuntoInformacionCR\PICR\PICR\obj\Debug\PICR.csproj.Up2Date
 C:\DAM\DI\PuntoInformacionCR\PICR\PICR\obj\Debug\PICR.exe
 C:\DAM\DI\PuntoInformacionCR\PICR\PICR\obj\Debug\PICR.pdb
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\DAM\DI\PuntoInformacionCR\PICR\PICR\bin\Debug\Microsoft.Web.WebView2.Wpf.xml

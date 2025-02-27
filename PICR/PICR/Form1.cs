@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +18,7 @@ namespace PICR
         {
             InitializeComponent();
             configuracionInicial();
+            this.AutoScaleMode = AutoScaleMode.None;
         }
 
         private void configuracionInicial()
@@ -71,6 +73,10 @@ namespace PICR
             panelInfo.Visible = true;
             panelProfesores.Visible = false;
             panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = false;
+            paneAdministrador.Visible = false;
         }
 
         private void botonProfesorado_Click(object sender, EventArgs e)
@@ -78,6 +84,10 @@ namespace PICR
             panelProfesores.Visible = true;
             panelInfo.Visible = false;
             panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = false;
+            paneAdministrador.Visible = false;
         }
 
         private void botonPlantaB_Click(object sender, EventArgs e)
@@ -157,6 +167,10 @@ namespace PICR
             panelPlanos.Visible = true;
             panelProfesores.Visible = false;
             panelInfo.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = false;
+            paneAdministrador.Visible = false;
             imagenesPlanos.Image = Properties.Resources.primeraP;
             label26.Visible = true;
             label27.Visible = true;
@@ -177,6 +191,102 @@ namespace PICR
             label42.Visible = false;
             label43.Visible = false;
             iconButton5.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panelProfesores.Visible = false;
+            panelInfo.Visible = false;
+            panelPlanos.Visible = false;
+            panelEntorno.Visible = true;
+            panelNormativa.Visible = false;
+        }
+
+        private void botonNormativa_Click(object sender, EventArgs e)
+        {
+            panelProfesores.Visible = false;
+            panelInfo.Visible = false;
+            panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = true;
+            panelSugerencias.Visible = false;
+            paneAdministrador.Visible = false;
+        }
+
+        private void botonEnviarSugerencia_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botonSugerencias_Click(object sender, EventArgs e)
+        {
+            panelProfesores.Visible = false;
+            panelInfo.Visible = false;
+            panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = true;
+            paneAdministrador.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            String usuario = "admin";
+            String contraseña = "admin";
+
+            if (textBox4.Text.Equals(usuario))
+            {
+                if (textBox5.Text.Equals(contraseña))
+                {
+                    panelSesion.Visible = false;
+                    panelCambiarNombres.Visible = true;
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña incorrecta");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Contraseña incorrecta");
+            }
+        }
+
+        private void botonAdministrador_Click(object sender, EventArgs e)
+        {
+            paneAdministrador.Visible = true;
+            panelProfesores.Visible = false;
+            panelInfo.Visible = false;
+            panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = false;
+            panelCambiarNombres.Visible = false;
+        }
+
+        private void botonCSesion_Click(object sender, EventArgs e)
+        {
+            panelCambiarNombres.Visible = false;
+            panelSesion.Visible = true;
+        }
+
+        private void botonGuardarCambios_Click(object sender, EventArgs e)
+        {
+            label14.Text = textBox6.Text;
+            label15.Text = textBox7.Text;
+            label17.Text = textBox8.Text;
+            label24.Text = textBox9.Text;
+            label22.Text = textBox10.Text;
+            label19.Text = textBox11.Text;
+            panelProfesores.Visible = true;
+            paneAdministrador.Visible = false;
+            panelInfo.Visible = false;
+            panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = false;
+            panelCambiarNombres.Visible = false;
+
         }
     }
 }
