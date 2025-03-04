@@ -166,13 +166,16 @@
   <data name="ana" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sanMiguelAlto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sanMiguelAlto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Jaime" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Jaime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Luis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Luis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sanMiguelAlto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sanMiguelAlto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mapaEntorno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapaEntorno.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

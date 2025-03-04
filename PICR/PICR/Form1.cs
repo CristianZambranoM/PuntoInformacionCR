@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -103,7 +104,7 @@ namespace PICR
             label33.Visible = false;
             label34.Visible = false;
             label35.Visible = false;
-            label36.Visible = false;
+            
             label37.Visible = false;
             label38.Visible = true;
             label39.Visible = false;
@@ -127,7 +128,7 @@ namespace PICR
             label33.Visible = true;
             label34.Visible = true;
             label35.Visible = true;
-            label36.Visible = true;
+           
             label37.Visible = true;
             label38.Visible = true;
             label39.Visible = true;
@@ -151,7 +152,7 @@ namespace PICR
             label33.Visible = false;
             label34.Visible = false;
             label35.Visible = false;
-            label36.Visible = false;
+            
             label37.Visible = false;
             label38.Visible = true;
             label39.Visible = false;
@@ -182,7 +183,7 @@ namespace PICR
             label33.Visible = false;
             label34.Visible = false;
             label35.Visible = false;
-            label36.Visible = false;
+          
             label37.Visible = false;
             label38.Visible = true;
             label39.Visible = false;
@@ -215,7 +216,7 @@ namespace PICR
 
         private void botonEnviarSugerencia_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Correo enviado correctamente");
         }
 
         private void botonSugerencias_Click(object sender, EventArgs e)
@@ -238,6 +239,7 @@ namespace PICR
             {
                 if (textBox5.Text.Equals(contraseña))
                 {
+                    MessageBox.Show("Credenciales correctas");
                     panelSesion.Visible = false;
                     panelCambiarNombres.Visible = true;
                 }
@@ -286,6 +288,38 @@ namespace PICR
             panelNormativa.Visible = false;
             panelSugerencias.Visible = false;
             panelCambiarNombres.Visible = false;
+
+        }
+
+        private void botonAdmin_Click(object sender, EventArgs e)
+        {
+            paneAdministrador.Visible = true;
+            panelProfesores.Visible = false;
+            panelInfo.Visible = false;
+            panelPlanos.Visible = false;
+            panelEntorno.Visible = false;
+            panelNormativa.Visible = false;
+            panelSugerencias.Visible = false;
+            panelCambiarNombres.Visible = false;
+        }
+
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://cescristorey.com/",
+                UseShellExecute = true
+            });
+        }
+
+        private void botonInfo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenido a la aplicación de información del Instituto CES Cristo Rey.\n\n" +
+                   "Aquí podrás consultar horarios, noticias y avisos importantes.\n" +
+                   "Si necesitas más ayuda, contacta con nosotros al número: +34 958291806",
+                   "Información",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Information);
 
         }
     }
